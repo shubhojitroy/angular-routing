@@ -13,7 +13,8 @@ import { ProductDetailComponent } from './products/product-detail/product-detail
 import { HeaderComponent } from './childcomponents/header/header.component';
 import { FooterComponent } from './childcomponents/footer/footer.component';
 import { PrivacyPolicyComponent } from './childcomponents/privacy-policy/privacy-policy.component';
-import { TermsOfUseComponent } from './childcomponents/terms-of-use/terms-of-use.component'
+import { TermsOfUseComponent } from './childcomponents/terms-of-use/terms-of-use.component';
+import { ProductModule } from './products/product.module'
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { TermsOfUseComponent } from './childcomponents/terms-of-use/terms-of-use
     HttpClientModule,
     AppRoutingModule,
     UserModule,
-    MessageModule
+    MessageModule,
+    ProductModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  pageTitle = 'Acme Product Management';
   constructor() { }
 
   ngOnInit() {
   }
+
 
 }
